@@ -2,25 +2,26 @@
 a = 10
 b = 12
 c = 33
+# Варіанти гарного форматування для виведення інформації
 print(a,b,c)
 print("a =", a,".", "b =", b,"." ,"c =", c, ".")
 print("Numbers : a = {}. b = {}. c = {}.".format(a,b,c))
 print("Numbers : a = {}. b = {}. c = {}.".format(b,a,c))
 print("Numbers : a = {}. b = {}. c = {}.".format(c,a,b))
 print(f"Numbers : a = {a}. b = {b}. c = {c}.")
-#comment one line
+#comment one line - однорядкові коментарі
 
 '''
-comment multyline
+comment multyline - багаторядкові коментарі
 '''
-
+#Вірні варіанти називання змінних
 # myVariable
 # ageOfHuman
 # age_of_human
 print(a)
 if a == 10:
     #algorithm
-    pass
+    pass# використовується, щоб вказати, що поки що немає ніякого алгоритму
 
 
 print(a)
@@ -33,29 +34,29 @@ a = "Happy"
 b = "New Year"
 c = 2025
 print(a+b)
-#print(a+b+c)
+#print(a+b+c)# не можна додавати два різних типи даних
 
-a = 8
-b = 22
-a == 8
+a = 8 # ініціалізація
+b = 22 # присвоєння
+a == 8 # порівняння
 
-import math
+import math #модуль для виклику математичних функцій
 
 print(math.ceil(2.5))# заокруглює до більшого
-print(math.floor(2.5))# зфокруглює до меншого
+print(math.floor(2.5))# заокруглює до меншого
 print(math.pow(2,4))# підносить до степеня
 print(math.sqrt(64))# знаходить корінь квадратний
 
-import random
+import random #модуль для генерації рандомного значення
 number = 7
 print(number)
-print(random.random())#0.....1
+print(random.random())#0.....1 радномне число в діопазоні від 0 до 1
 print(random.random())
 print(random.random())
 print(random.random())
-print(random.randint(0,1))
-print(random.randint(10,100))
-print(random.randint(10,20))
+print(random.randint(0,1))# радномне число в діопазоні від 0 до 1
+print(random.randint(10,100))# радномне число в діопазоні від 10 до 100
+print(random.randint(10,20))# радномне число в діопазоні від 10 до 20
 
 
 # 270m - 1 kg

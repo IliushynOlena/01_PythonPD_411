@@ -12,20 +12,20 @@
 #Користувач із клавіатури вводить чотиризначне число. 
 # Необхідно перевернути число і відобразити результат. 
 # Наприклад, якщо введено 4512, результат — 2154.
-# number = int(input("Enter number : "))
-
+number = int(input("Enter number : "))
+# алгоритм поділу числа на окремі цифри
 # print(number)
 # #1234 = / , //, %  
-# a = number//1000
-# print("a = ",a)
-# b = number//100%10
-# print("b = ",b)
-# c= number//10%10
-# print("c = ",c)
-# d = number%10
-# print("d = ",d) 
-# print(d,c,b,a)
-# print(str(d)+ str(c)+str(b)+str(a))
+a = number//1000 #1234//1000 = 1
+print("a = ",a)
+b = number//100%10 # 1234//100 = 12%10 = 2
+print("b = ",b)
+c= number//10%10 #1234 //10 = 123%100 = 3
+print("c = ",c)
+d = number%10 #1234 % 10 = 4
+print("d = ",d) 
+print(d,c,b,a)
+print(str(d)+ str(c)+str(b)+str(a))
 
 #15%4 = 3
 #1. 15/4 = 3.2154
