@@ -1,3 +1,4 @@
+'''
 print ("Hello world")
 print ("Hello world")
 print ("Hello world")
@@ -53,3 +54,20 @@ while i <= 35:
 #1 - 15
 
 #20 - 5
+'''
+#Користувач вводить із клавіатури два числа. Потрібно показати всі числа у вказаному діапазоні.
+
+start = int(input("Enter start : "))#2
+end = int(input("Enter end : "))#15
+
+i = start
+while i <= end:
+    print(i, end=" ")
+    i+=1
+
+start = int(input("Enter start : "))#2
+end = int(input("Enter end : "))#15
+
+while start <= end:
+    print(start, end=" ")
+    start+=1
