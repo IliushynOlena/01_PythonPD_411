@@ -1,4 +1,4 @@
-'''
+
 line = "Hello world"# str
 print(line)
 print(line[0])
@@ -18,6 +18,8 @@ print()
 some_string = "Enter some line : "
 for one_letter in  some_string:
     print(one_letter, end= "")
+
+    
 print("\n----------------------------------------")
 for one_letter in  some_string[0:5:1]:
     print(one_letter, end= " ")
@@ -98,7 +100,7 @@ if not flag:#not = True-> False...False->True
     print("Number is prime")
 else:
     print("Simple")
-'''
+
 name = "Olena teacher"# O l e n a
 for s in name:
     print(s, end=" ")
