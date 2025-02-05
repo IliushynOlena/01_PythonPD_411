@@ -41,3 +41,9 @@ while x < 10:
     x+=1
     break
 
+
+print("Hello")
+print("Hello")
+print("Hello")
+print("Test")
+
