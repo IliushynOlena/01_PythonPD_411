@@ -18,6 +18,7 @@ print("boolean ", type(True))
 print("boolean ", type(False))
 
 
+5  + 5
 
 # operators : + - * / // % **
 print(2+2)
